@@ -46,7 +46,7 @@
             <li><a class="nav-link scrollto active" href="#">Jobs</a></li>
             <li><a class="nav-link scrollto" href="#">Companies</a></li>
             <li><a class="nav-link scrollto" href="#">For Employers</a></li>
-            <li><a class="login scrollto" href="#contact">Login</a></li>
+            <li><a class="login scrollto" href="{{ route('login') }}">Login</a></li>
             <li><a class="signup scrollto" href="#about">Signup</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
